@@ -28,11 +28,11 @@ const FieldsetContent: React.FC<React.PropsWithChildren<FieldsetContentProps>> =
           padding: ${theme.layout.gap};
         }
 
-        .content :global(*:first-child) {
+        .content :global(>:first-child) {
           margin-top: 0;
         }
 
-        .content :global(*:last-child) {
+        .content :global(>:last-child) {
           margin-bottom: 0;
         }
       `}</style>
